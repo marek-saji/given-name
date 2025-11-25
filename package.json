@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/marek-saji/given-name#readme",
   "devDependencies": {
-    "mocha": "^10.2.0",
+    "mocha": "^10.8.2",
     "wiktionary": "^1.2.0"
   }
 }
