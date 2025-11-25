@@ -35,4 +35,4 @@ welcome.
 
 [ISC](./LICENSE)
 
-[What does that even mean?](https://tldrlegal.com/license/-isc-license)
+[What does that even mean?](https://tldrlegal.com/license/isc-license)
