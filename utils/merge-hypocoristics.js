@@ -6,7 +6,7 @@ function unique (arr)
 
 module.exports = (...hypo) => hypo.reduce(
     (carry, rows) => {
-        for (row of rows)
+        for (const row of rows)
         {
             for (const name of row)
             {
