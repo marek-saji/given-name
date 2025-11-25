@@ -6,8 +6,7 @@ function unique (arr)
 
 module.exports = (...hypo) => hypo.reduce(
     (carry, rows) => {
-        for (const row of rows)
-        {
+        rows.forEach(row => {
             for (const name of row)
             {
                 // FIXME Some names added with “/” are not unique
@@ -17,12 +16,12 @@ module.exports = (...hypo) => hypo.reduce(
                 if (aliasIdx !== -1)
                 {
                     carry[aliasIdx] = unique(carry[aliasIdx].concat(row));
-                    return carry;
+                    return;
                 }
             }
 
             carry.push(row);
-        }
+        });
         return carry;
     },
     []
